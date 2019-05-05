@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Cairo Metro Guide</string>
+    <string name="from_to">From/To</string>
+    <string name="metro_lines">Metro Lines</string>
+    <string name="metro_map">Metro Map</string>
+    <string name="nearest_station">Nearest Station</string>
+    <string name="first_line">First Line</string>
+    <string name="second_line">Second Line</string>
+    <string name="third_line">Third Line</string>
+    <string-array name="from_to">
+        <item>حلوان</item>
+        <item>عين حلوان</item>
+        <item>جامعه حلوان</item>
+        <item>وادى حوف</item>
+        <item>حدائق حلوان</item>
+        <item>المعصره</item>
+        <item>طره الاسمنت</item>
+        <item>كوتسيكا</item>
+        <item>طره البلد</item>
+        <item>ثكنات المعادى</item>
+        <item>المعادى</item>
+        <item>حدائق المعادى</item>
+        <item>دار السلام</item>
+        <item>الزهراء</item>
+        <item>مارى جرجس</item>
+        <item>الملك الصالح</item>
+        <item>السيده زينب</item>
+        <item>سعد زغلول</item>
+        <item>السادات</item>
+        <item>جمال عبدالناصر</item>
+        <item>عرابى</item>
+        <item>الشهداء</item>
+        <item>غمره</item>
+        <item>الدمرداش</item>
+        <item>منشيه الصدر</item>
+        <item>كوبرى القبه</item>
+        <item>حمامات القبه</item>
+        <item>سرايه القبه</item>
+        <item>حدائق الزيتون</item>
+        <item>حلميه الزيتون</item>
+        <item>المطريه</item>
+        <item>عين شمس</item>
+        <item>عزبه النخيل</item>
+        <item>المرج</item>
+        <item>المرج الجديده</item>
+        <item>المنيب</item>
+        <item>ساقيه مكى</item>
+        <item>ام المصريين</item>
+        <item>الجيزة</item>
+        <item>فيصل</item>
+        <item>جامعه القاهره</item>
+        <item>البحوث</item>
+        <item>الدقى</item>
+        <item>الاوبرا</item>
+        <item>محمد نجيب</item>
+        <item>العتبه</item>
+        <item>مسره</item>
+        <item>روض الفرج</item>
+        <item>سانت تريزا</item>
+        <item>الخلفاوى</item>
+        <item>المظلات</item>
+        <item>الزراعه</item>
+        <item>شبرا الخيمه</item>
+        <item>العتبه</item>
+        <item>باب الشعريه</item>
+        <item>الجيش</item>
+        <item>عبده باشا</item>
+        <item>العباسيه</item>
+        <item>ارض المعارض</item>
+        <item>الاستاد</item>
+        <item>كليه البنات</item>
+        <item>الاهرام</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+</resources>

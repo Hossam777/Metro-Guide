@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.mecnology.ace.metroguide.HomePage">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_65sdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:onClick="FromTo"
+                android:id="@+id/from_to"
+                style="@style/style1"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:text="@string/from_to" />
+
+            <Button
+                android:onClick="MetroLines"
+                android:id="@+id/metro_lines"
+                style="@style/style1"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:text="@string/metro_lines" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:onClick="nearest"
+                android:id="@+id/nearest_station"
+                style="@style/style1"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:text="@string/nearest_station" />
+
+            <Button
+                android:onClick="show_map"
+                android:id="@+id/metro_map"
+                style="@style/style1"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:text="@string/metro_map" />
+        </LinearLayout>
+    </LinearLayout>
+
+         <!--   <ImageView
+                android:id="@+id/metroimg"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/metro_img" />
+-->
+</android.support.constraint.ConstraintLayout>
